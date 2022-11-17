@@ -4,3 +4,25 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+main {
+    height: 100vh;
+    background-color: aqua;
+}
+
+.top-section {
+    height: 5%;
+    background-color: bisque;
+}
+
+.main-section {
+    height: 85%;
+    background-color: mediumseagreen;
+    overflow-y: scroll;
+}
+
+.bottom-section {
+    height: 10%;
+    background-color: salmon;
+}
+
