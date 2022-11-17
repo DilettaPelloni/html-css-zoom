@@ -5,22 +5,44 @@
     box-sizing: border-box;
 }
 
+/* REGOLE GENERALI */
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* ----- MAIN ----- */
 main {
     height: 100vh;
     background-color: aqua;
 }
 
+/* TOP SECTION */
 .top-section {
     height: 5%;
-    background-color: bisque;
+    background-color: black;
+    text-align: right;
+    padding: 5px 10px;
 }
 
+.top-section button {
+    padding: 5px;
+    background-color: #4A4A4A;
+    color: white;
+    border-radius: 3px;
+    border: none;
+}
+
+
+/* MAIN SECTION */
 .main-section {
     height: 85%;
     background-color: mediumseagreen;
     overflow-y: scroll;
 }
 
+
+/* BOTTOM SECTION */
 .bottom-section {
     height: 10%;
     background-color: salmon;
