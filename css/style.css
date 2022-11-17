@@ -10,6 +10,9 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.flex {
+    display: flex;
+}
 
 /* ----- MAIN ----- */
 main {
@@ -31,15 +34,52 @@ main {
     color: white;
     border-radius: 3px;
     border: none;
+    cursor: pointer;
 }
 
 
 /* MAIN SECTION */
 .main-section {
+    padding: 45px 50px;
     height: 85%;
-    background-color: mediumseagreen;
+    background-color: black;
     overflow-y: scroll;
+
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: flex-start;
 }
+
+.user-box {
+    padding: 5px;
+    margin-bottom: 10px;
+    height: 180px;
+    width: 300px;
+}
+
+.user {
+    height: 100%;
+    background-image: url('https://picsum.photos/200/300');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    position: relative;
+}
+
+.user-name {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px;
+    color: white;
+    font-size: 0.8em;
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+
 
 
 /* BOTTOM SECTION */
