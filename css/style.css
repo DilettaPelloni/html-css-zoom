@@ -25,14 +25,10 @@ button {
 }
 
 /* ----- MAIN ----- */
-main {
-    height: 100vh;
-    background-color: aqua;
-}
 
 /* TOP SECTION */
 .top-section {
-    height: 5%;
+    height: 50px;
     background-color: black;
     text-align: right;
     padding: 5px 10px;
@@ -49,27 +45,22 @@ main {
 
 /* MAIN SECTION */
 .main-section {
-    height: 87%;
+    height: calc(100vh - 120px);
     padding: 45px 50px;
     background-color: black;
-    overflow-y: scroll;
+    overflow-y: auto;
 
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     align-content: flex-start;
 }
 
-.user-box {
-    padding: 5px;
-    margin-bottom: 10px;
+.user {
+    margin: 0 5px 20px;
     height: 180px;
     width: 300px;
-}
-
-.user {
-    height: 100%;
-    background-image: url('https://picsum.photos/200/300');
+    background-image: url('https://picsum.photos/300/180');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -90,7 +81,7 @@ main {
 
 /* BOTTOM SECTION */
 .bottom-section {
-    height: 8%;
+    height: 70px;
     background-color: #222222;
     padding-left: 5px;
 }
